@@ -29,7 +29,7 @@ body {
 
 .principal h1 {
   text-align: center;
-  font-size: 4rem; }
+  font-size: 3.7rem; }
 
 .principal p {
   line-height: 2;
@@ -54,10 +54,10 @@ nav {
   color: white; }
 
 .navbar-brand:hover {
-  color: #ffa500; }
+  color: #f3742b; }
 
 nav img {
-  width: 75px; }
+  width: 45px; }
 
 nav div a {
   color: white;
@@ -67,7 +67,7 @@ nav i {
   padding: 2px; }
 
 a {
-  padding: 20px;
+  padding: 0px;
   text-decoration: none;
   color: white; }
 
@@ -79,7 +79,7 @@ a {
   color: white; }
 
 .nav-link:hover {
-  color: #ffa500; }
+  color: #f3742b; }
 
 /* PRODUCTOS */
 .productos {
@@ -93,7 +93,8 @@ a {
 
 #productos {
   margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px; 
+}
 
 .card {
   background-color: rgba(0, 128, 0, 0); }
@@ -102,7 +103,7 @@ a {
 .atras {
   min-width: 130px;
   height: 40px;
-  color: #ffa500;
+  color: #f3742b;
   padding: 5px 10px;
   font-weight: bold;
   cursor: pointer;
@@ -137,7 +138,26 @@ a {
   top: 2px; }
 
 .atras a:hover {
-  color: #ffa500; }
+  color: #f3742b; }
+
+  /* PREGUNTAS FRECUENTES */
+  .fondo {
+    width: auto;
+  }
+
+
+.accordion-item {
+border: none;
+
+}
+  .accordion-button {
+    background-color: #f3742b;
+    justify-content:center;
+  }
+.accordion-button:not(.collapsed) {
+color: rgb(0, 0, 0);
+}
+
 
 /* PAGINA CONTACTO */
 form {
@@ -174,6 +194,11 @@ textarea {
 #boton:hover {
   cursor: pointer;
   border: 1px solid white; }
+  
+  .wsp{
+background-color: rgba(0, 128, 0, 0.356);
+padding: 0%;
+ }
 
 #wsp:hover {
   color: green; }
@@ -182,7 +207,7 @@ textarea {
 footer {
   background-image: url(../Imagenes/fonditoheader.jpg);
   width: 100%;
-  height: 4rem;
+  height: 5.2rem;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -192,4 +217,4 @@ footer a {
   color: white; }
 
 footer a:hover {
-  color: #ffa500; }
+  color: #f3742b; }
