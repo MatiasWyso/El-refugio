@@ -56,6 +56,10 @@ nav {
 .navbar-brand:hover {
   color: #f3742b; }
 
+  .navbar-toggler-icon {
+    background-color: #f3742b;
+  }
+
 nav img {
   width: 45px; }
 
@@ -101,8 +105,7 @@ a {
 
 /* BOTÓN ATRÁS */
 .atras {
-  min-width: 130px;
-  height: 40px;
+  min-width: 100px;
   color: #f3742b;
   padding: 5px 10px;
   font-weight: bold;
@@ -115,7 +118,8 @@ a {
   border: none;
   box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0.377), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.753);
   background: #ac5b0f;
-  z-index: 1; }
+  margin-bottom: 20px;
+ }
 
 .atras:hover:after {
   width: 100%;
