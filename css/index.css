@@ -45,7 +45,15 @@ main div img {
 .carousel-item {
   width: 100%;
   height: 400px; }
-
+  
+.btn {
+  background-color: #a55120;
+  border-color: #000000
+}
+.btn-primary {
+--bs-btn-hover-border-color: #000000;
+--bs-btn-hover-bg: #f3742b
+}
 /* HEADER */
 nav {
   background-image: url("../Imagenes/fonditoheader.jpg"); }
