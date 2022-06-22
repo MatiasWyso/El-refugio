@@ -187,6 +187,7 @@ a {
   width: auto;
 }
 
+/* PREGUNTAS XL */
 @media (min-width: 1200px) {
 .accordion{
 width: 50%;
@@ -240,7 +241,7 @@ textarea {
   min-width: 100px;
 }
 
-/* SECCION WSP */
+/* SECCION REDES */
 #boton {
   background-color: #c0640f;
   transition: .5s;
