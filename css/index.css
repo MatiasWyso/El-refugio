@@ -62,7 +62,7 @@ main div img {
   --bs-btn-hover-bg: #f3742b
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
   .carousel-item {
     height: 400px;
   }
@@ -188,7 +188,7 @@ a {
 }
 
 /* PREGUNTAS XL */
-@media (min-width: 1200px) {
+@media (min-width: 1900px) {
 .accordion{
 width: 50%;
 margin-left: 500px;
