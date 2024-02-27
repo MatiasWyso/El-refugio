@@ -40,6 +40,9 @@ body {
 .principal p {
   line-height: 2;
   font-size: 1.5rem;
+  max-width: 800px; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2,
